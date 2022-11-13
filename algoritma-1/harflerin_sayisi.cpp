@@ -12,7 +12,7 @@ int main() {
 		
 		if (metin[i] > Z) metin[i] -= (a-A);
 		
-		alfabe[metin[i] - A] += 1;
+		alfabe[metin[i] - A]++;
 		
 		//printf("%c harfi %d. harf oluyor. \n", metin[i], metin[i] - A);
 	}
